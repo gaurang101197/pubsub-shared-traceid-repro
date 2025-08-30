@@ -1,0 +1,18 @@
+{
+    "name": "pubsub-shared-traceid-repro",
+    "version": "1.0.0",
+    "description": "Reproduce pubsub shared traceid issue",
+    "author": "Gaurang Patel",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/pubsub": "4.11.0",
+        "@opentelemetry/instrumentation": "^0.203.0",
+        "@opentelemetry/instrumentation-grpc": "^0.203.0",
+        "@opentelemetry/sdk-trace-node": "1.28.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.3.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    }
+}
